@@ -1,0 +1,15 @@
+Package: CoolToBeASCII
+Type: Package
+Title: Converts text to ASCII art
+Version: 0.1.1
+Authors@R: person("Karel", "Kroeze", email = "karel.kroeze@gmail.com", role = c("aut", "cre") )
+Description: Converts text to ASCII in a variety of fonts. Great for
+    finishing long-running scripts on a high note. Uses an API at 
+    http://artii.herokuapp.com/, see also http://github.com/potomak/artii-api.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    httr,
+    utils
+RoxygenNote: 7.0.2
